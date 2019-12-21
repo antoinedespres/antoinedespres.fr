@@ -169,11 +169,11 @@ article {
 }
 
 article h1 {
-    /* correction pour éviter que le titre passe sous le menu lorsque l'on clique sur l'ancre : il faut créer un décalage. Cependant, cela empêche de cliquer sur les liens car le padding créé se met par dessus, peu importe le z-index renseigné.
+    /* correction pour éviter que le titre passe sous le menu lorsque l'on clique sur l'ancre : il faut créer un décalage. Cependant, cela empêche de cliquer sur les liens car le padding créé se met par dessus, peu importe le z-index renseigné. */
     padding-top: 6em;
     position: relative;
     top: -6em;
-    margin-bottom: -6em; */
+    margin-bottom: -6em;
 }
 
 table {
