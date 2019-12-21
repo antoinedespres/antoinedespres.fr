@@ -1,0 +1,13 @@
+/*nav ul { afficher le menu à la verticale sur mobile
+    display:flex;
+    flex-direction: column;
+}*/
+
+nav li {
+    padding: 2px 2px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 1.2em;
+}

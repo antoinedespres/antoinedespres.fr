@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'abelregular';
+    src: url('../polices/abel-regular-webfont.eot');
+    src: url('../polices/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/abel-regular-webfont.woff2') format('woff2'),
+         url('../polices/abel-regular-webfont.woff') format('woff'),
+         url('../polices/abel-regular-webfont.ttf') format('truetype'),
+         url('../polices/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*
+{
+    font-family: 'abelregular', Arial, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+
+header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    background-color:#FFFFFF;
+    color:#000000;
+    border-bottom: 1px solid;
+    
+    width:100%;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 /* Prénom Nom */
+{
+    font-family: 'abelregular', serif;
+    font-size: 2.2em;
+    font-weight: normal;
+    margin: 5px 0 5px 10px;
+}
+
+header h2 /* Etudiant à l'IUT de Paris */
+{
+    font-family: 'abelregular', serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+    margin: 0 0 5px 10px;
+}
+
+/* Navigation */
+
+nav ul /* suppression des puces et affichage à l'horizontale */
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li /* espacement des éléments du menu */
+{
+    margin: auto;
+}
+
+nav ul ul /* les sous-menus sont cachés par défaut */
+{
+    display: none;
+}
+
+nav ul li:hover ul {
+ display:block;
+ }
+nav li:hover ul li {
+ float:none;
+ }
+
+nav li ul {
+ position:absolute;
+ }
+
+nav a /* taille, couleurs et marge du texte */
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+nav a:hover /* apparence lorsque survolé */
+{
+    color: #760001; /* couleur du texte lorsque survolé */
+    border-bottom: 3px solid #000000; /* bordure en bas lorsque le lien est survolé */
+}
+
+article
+{
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+/* Footer */
+
+footer
+{
+    border-top: 1px solid #000000;
+    display: flex;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.2em;
+}
+
+
+#me_contacter
+{
+    width: 28%;
+}
+
+#plan_site
+{
+    width: 31%;
+}
+
+#pages_site
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}

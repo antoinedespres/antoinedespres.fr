@@ -1,0 +1,222 @@
+/* Ficher style.css, appliqué à toutes les pages du site*/
+
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('../polices/geosanslight-webfont.eot');
+    src: url('../polices/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../polices/geosanslight-webfont.woff2') format('woff2'),
+        url('../polices/geosanslight-webfont.woff') format('woff'),
+        url('../polices/geosanslight-webfont.ttf') format('truetype'),
+        url('../polices/geosanslight-webfont.svg#geosanslightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: 'geosanslightregular', Arial, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+/* En-tête de la page */
+
+header {
+    text-align: center;
+    background-color: #27211E;
+    color: #FFFFFF;
+    height:12em;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+hr {
+    border: 1px solid white;
+    width: 25vw;
+}
+
+header h1
+
+/* Antoine Després */
+    {
+    font-size: 2.5em;
+    margin: 5px 0px;
+}
+
+header h2
+
+/* Étudiant à l'IUT de Paris */
+    {
+    font-size: 1.1em;
+}
+
+header h1 a {
+    color: #FFFFFF;
+    transition: 0.4s ease;
+}
+
+header h1 a:hover {
+    color: #CDCDCD;
+    text-decoration: none;
+}
+
+/* Menu de navigation */
+
+nav {
+    margin: 5px auto 0px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul
+
+/* suppression des puces et affichage à l'horizontale */
+    {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+nav li
+
+/* espacement des éléments du menu */
+    {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    border: 3px #32A899 inset;
+}
+
+nav li:hover {
+    background-color: #32A899;
+    border: 2px inset #FFFFFF;
+    transition: 0.4s ease;
+}
+
+nav ul li ul {
+    display: none;
+    /* caché*/
+    position: absolute;
+    transition:0.8s ease;
+}
+
+nav ul li:hover ul {
+    display: block;
+    /* affichage vertical sous Loisirs */
+
+}
+
+nav ul li:hover ul li {
+    margin: 5px 0px;
+}
+
+nav a {
+    /* taille, couleurs et marge du texte du menu */
+    font-size: 1.5em;
+    color: #27211E;
+}
+
+nav a:hover
+
+/* apparence lorsque survolé */
+    {
+    color: #FFFFFF;
+    /* couleur du texte lorsque survolé */
+    text-decoration: none;
+    /*on ne souligne pas */
+}
+
+#globale {
+    min-width: 200px;
+}
+
+#page {
+    margin-top: 12em;
+}
+
+.imageflottante {
+    float: left;
+    padding-right: 10px;
+    height: 5em;
+    width: 5em;
+}
+
+#intro {
+    padding: 1vw 3vw;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 15px 20px;
+    margin: 2% 0%;
+    border: 2px inset #27211E;
+    position: relative;
+}
+
+article h1 {
+    /* correction pour éviter que le titre passe sous le menu lorsque l'on clique sur l'ancre : il faut créer un décalage. Cependant, cela empêche de cliquer sur les liens car le padding créé se met par dessus, peu importe le z-index renseigné.
+    padding-top: 6em;
+    position: relative;
+    top: -6em;
+    margin-bottom: -6em; */
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+table th {
+    background-color: #32A899;
+    color: white;
+}
+
+table td,th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Pied de page */
+
+footer {
+    text-align:center;
+    background-color: #27211E;
+    color: #FFFFFF;
+    border-top: 1px solid #27211E;
+    padding: 3vh 10vw;
+    width: 100vw;
+}
+
+footer h1 {
+    font-size: 1.5em;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer img {
+    width: 2em;
+    height: 2em;
+}
+
+footer .logo {
+    width:auto;
+    height:auto;
+}
