@@ -31,7 +31,7 @@ header {
     text-align: center;
     background-color: #27211E;
     color: #FFFFFF;
-    height:12em;
+    height: 12em;
     width: 100vw;
     position: fixed;
     top: 0;
@@ -107,7 +107,7 @@ nav ul li ul {
     display: none;
     /* caché*/
     position: absolute;
-    transition:0.8s ease;
+    transition: 0.8s ease;
 }
 
 nav ul li:hover ul {
@@ -187,7 +187,8 @@ table th {
     color: white;
 }
 
-table td,th {
+table td,
+th {
     border: 1px solid black;
     padding: 5px;
 }
@@ -195,7 +196,7 @@ table td,th {
 /* Pied de page */
 
 footer {
-    text-align:center;
+    text-align: center;
     background-color: #27211E;
     color: #FFFFFF;
     border-top: 1px solid #27211E;
@@ -217,6 +218,6 @@ footer img {
 }
 
 footer .logo {
-    width:auto;
-    height:auto;
+    width: auto;
+    height: auto;
 }
