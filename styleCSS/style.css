@@ -32,7 +32,7 @@ header {
     background-color: #27211E;
     color: #FFFFFF;
     display: flex;
-    height: 5em;
+    height: auto;
     width: 100vw;
     position: fixed;
     top: 0;
@@ -42,14 +42,18 @@ header {
 #nomTexte {
     display: block;
     text-align: center;
+    margin: 1em 1em;
 }
 
 header hr {
 
     border: none;
-    border-left: 1px solid hsla(200, 10%, 50%, 100);
-    height: 3em;
+    border-left: 2px solid hsla(200, 10%, 50%, 100);
+    padding-right: 0;
+    margin-right: 0;
+    height: 5em;
     width: 1px;
+    margin-left: 3em;
 }
 
 header h1
@@ -81,7 +85,7 @@ header h1 a:hover {
 
 nav {
     margin: 1em 1em;
-    display: inline-block;
+    margin-left: 0;
     text-align: center;
 }
 
@@ -92,7 +96,7 @@ nav ul
     list-style-type: none;
     display: flex;
     padding: 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
 }
 
 nav li
@@ -206,12 +210,12 @@ th {
 
 footer {
     text-align: center;
-    display:flex;
+    display: flex;
     background-color: #27211E;
     color: #FFFFFF;
     padding: 3vh 10vw;
     width: 100vw;
-    height:auto;
+    height: auto;
 }
 
 footer h1 {
