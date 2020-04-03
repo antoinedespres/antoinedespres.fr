@@ -38,6 +38,15 @@ header {
     z-index: 100;
 }
 
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: antiquewhite;
+}
+
 hr {
     border: 1px solid white;
     width: 25vw;
