@@ -95,7 +95,7 @@
                         dataType: "json",
                         data: $form.serializeObject()
                     }).done(function() {
-                        // do something
+                        $('form#formContact')[0].reset();
                     });
                 });
 
