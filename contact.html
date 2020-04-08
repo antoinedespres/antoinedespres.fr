@@ -42,45 +42,64 @@
         </header>
 
         <div id="page">
-            <form>
+            <form id="formContact">
                 <legend>Formulaire de contact</legend>
                 <div class="form-row">
-
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail4">Prénom</label>
-                        <input type="text" class="form-control" id="inputFirstName" placeholder="Votre prénom">
+                    <div class="form-group col-md-3">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" class="form-control" id="inputFirstName" placeholder="Votre prénom">
                     </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail4">Nom</label>
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="Votre nom">
+                    <div class="form-group col-md-3">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" class="form-control" id="inputEmail4" placeholder="Votre nom">
                     </div>
-
                 </div>
 
-                <div class="form-group">
-                    <label for="inputAddress">Adresse email</label>
-                    <input type="email" class="form-control" id="inputAddress" placeholder="email@example.com">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="email">Adresse email</label>
+                        <input type="email" name="email" class="form-control" id="inputAddress" placeholder="email@example.com">
+                    </div>
+
+                    <div class="form-group col-md-3">
+                        <label for="datecontact">Date de contact souhaitée</label>
+                        <input type="date" name="dateContact" class="form-control" id="inputDate">
+                    </div>
                 </div>
 
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <input class="form-check-input" name="caseRecruteur" type="checkbox" id="gridCheck">
                         <label class="form-check-label" for="gridCheck">Je suis recruteur</label>
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputCity">Date de contact souhaitée (n'entrez pas une date dans le passé, je ne suis pas Marty McFly !)</label>
-                        <input type="date" class="form-control" id="inputDate">
-                    </div>
-                </div>
-                <div class="form-row">
                     <label for="exampleFormControlTextarea1">Votre message</label>
-                    <textarea class="form-control" id="messageBox" rows="5"></textarea>
+                    <textarea class="form-control" name="zoneTexte" id="messageBox" rows="5"></textarea>
                 </div>
                 <br />
-                <button type="submit" class="btn btn-primary">Envoyer</button>
+                <button type="submit" id="submit-form" name="envoyer" class="btn btn-primary">Envoyer</button>
             </form>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script type="text/javascript" src="./jquery.serializeObject.min.js"></script>
+
+            <script type="text/javascript">
+                var $form = $('formContact'),
+                    url = 'https://script.google.com/macros/s/AKfycbwFPa9m5hRzEwvPc3F8sIh_Ib4tvgKeJBLtyIcEvCn_GfHozsk/exec';
+
+                $('#submit-form').on('click', function(e) {
+                    e.preventDefault();
+                    var jqxhr = $.ajax({
+                        url: url,
+                        method: "GET",
+                        dataType: "json",
+                        data: $form.serializeObject()
+                    }).done(function() {
+                        // do something
+                    });
+                });
+            </script>
+
         </div> <!-- fin id="page"-->
 
         <footer>
