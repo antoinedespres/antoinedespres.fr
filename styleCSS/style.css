@@ -1,4 +1,4 @@
-/* Ficher style.css, appliqué à toutes les pages du site*/
+/* Ficher style.css, appliqué à toutes les pages du site */
 
 @font-face {
     font-family: 'geosanslightregular';
@@ -10,7 +10,6 @@
         url('../polices/geosanslight-webfont.svg#geosanslightregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 * {
@@ -29,13 +28,21 @@ p {
 
 header {
     text-align: center;
-    background-color: #27211E;
+    display:block;
+    background-color: #202225;
     color: #FFFFFF;
-    height: 12em;
-    width: 100vw;
+    padding: 1% 6%;
+    
+    width: 100%;
     position: fixed;
     top: 0;
-    z-index: 100;
+    margin:0;
+    height:12em;
+    z-index: 5000;
+}
+
+#page {
+    margin-top: 12em;
 }
 
 footer a {
@@ -80,9 +87,10 @@ header h1 a:hover {
 /* Menu de navigation */
 
 nav {
-    margin: 5px auto 0px auto;
+    
     display: inline-block;
     text-align: center;
+    vertical-align:middle;
 }
 
 nav ul
@@ -91,8 +99,8 @@ nav ul
     {
     list-style-type: none;
     display: flex;
-    padding: 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0;
+    margin: 0;
 }
 
 nav li
@@ -103,11 +111,11 @@ nav li
     margin-right: 10px;
     padding: 2px 5px;
     background-color: #FFFFFF;
-    border: 3px #32A899 inset;
+    border: 3px #318CE7 inset;
 }
 
 nav li:hover {
-    background-color: #32A899;
+    background-color: #318CE7;
     border: 2px inset #FFFFFF;
     transition: 0.4s ease;
 }
@@ -132,7 +140,7 @@ nav ul li:hover ul li {
 nav a {
     /* taille, couleurs et marge du texte du menu */
     font-size: 1.5em;
-    color: #27211E;
+    color: #202225;
 }
 
 nav a:hover
@@ -149,15 +157,16 @@ nav a:hover
     min-width: 200px;
 }
 
-#page {
-    margin-top: 12em;
+.imagearticle{
+    height:10%;
+    width:20%;
+    
 }
 
 .imageflottante {
-    float: left;
-    padding-right: 10px;
-    height: 5em;
-    width: 5em;
+    padding-right:10px;
+    max-width:100%;
+    height:auto; 
 }
 
 #intro {
@@ -173,27 +182,31 @@ article {
     background-color: rgba(255, 255, 255, 0.80);
     padding: 12px 20px;
     margin: 2% 0%;
-    border: 2px inset #27211E;
+    border: 2px inset #202225;
     position: relative;
-    text-align:justify;
+    text-align:left;
+    
+    
+}
+
+.articlecontent{
+    display:flex;
 }
 
 article h1 {
-    /* correction pour éviter que le titre passe sous le menu lorsque l'on clique sur l'ancre : il faut créer un décalage. Cependant, cela empêche de cliquer sur les liens car le padding créé se met par dessus, peu importe le z-index renseigné. */
-    padding-top: 6em;
     position: relative;
-    top: -6em;
-    margin-bottom: -6em;
+    
 }
 
 table {
     border-collapse: collapse;
     text-align: center;
     font-size: 1.3em;
+    overflow-x:scroll;
 }
 
 table th {
-    background-color: #32A899;
+    background-color: #318CE7;
     color: white;
 }
 
@@ -207,9 +220,9 @@ th {
 
 footer {
     text-align: center;
-    background-color: #27211E;
+    background-color: #202225;
     color: #FFFFFF;
-    border-top: 1px solid #27211E;
+    border-top: 1px solid #202225;
     padding: 3vh 10vw;
     width: 100vw;
 }

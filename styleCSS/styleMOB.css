@@ -1,5 +1,3 @@
-
-
 *
 {
     font-family: 'abelregular', Arial, Verdana, sans-serif;
@@ -21,12 +19,6 @@ header
     border-bottom: 1px solid;
     
     width:100%;
-}
-
-#titre_principal
-{
-    display: flex;
-    flex-direction: column;
 }
 
 header h1 /* Prénom Nom */
@@ -84,12 +76,6 @@ nav a /* taille, couleurs et marge du texte */
     
 }
 
-nav a:hover /* apparence lorsque survolé */
-{
-    color: #760001; /* couleur du texte lorsque survolé */
-    border-bottom: 3px solid #000000; /* bordure en bas lorsque le lien est survolé */
-}
-
 article
 {
     padding: 5px;
@@ -97,27 +83,6 @@ article
     border: 2px solid black;
 }
 
-
-.bouton_rouge
-{
-    height: 25px;
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
-    background: url('images/fond_degraderouge.png') repeat-x;
-    border: 1px solid #760001;
-    border-radius: 5px;
-    font-size: 1.2em;
-    text-align: center;
-    padding: 3px 8px 0px 8px;
-    color: white;
-    text-decoration: none;
-}
-
-.bouton_rouge img
-{
-    border: 0;
-}
 
 /* Footer */
 
@@ -136,34 +101,4 @@ footer p, footer ul
 footer h1
 {
     font-size: 1.2em;
-}
-
-
-#me_contacter
-{
-    width: 28%;
-}
-
-#plan_site
-{
-    width: 31%;
-}
-
-#pages_site
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-}
-
-#mes_amis ul
-{
-    list-style-image: url('images/ico_liensexterne.png');
-    padding-left: 2px;
-}
-
-#mes_amis a
-{
-    text-decoration: none;
-    color: #760001;
 }
