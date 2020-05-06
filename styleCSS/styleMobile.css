@@ -1,7 +1,4 @@
-/*nav ul { afficher le menu à la verticale sur mobile
-    display:flex;
-    flex-direction: column;
-}*/
+/* styleMobile.css */
 
 nav li {
     padding: 2px 2px;
