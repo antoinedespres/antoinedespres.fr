@@ -21,8 +21,18 @@
     background-color: #55D6AB;
 }
 
+.col-lg-7 {
+    background: url("../images/programmation.PNG");
+    background-size:cover;
+}
+
+.col-lg-8 {
+	background: url("../images/photographie.jpg");
+	background-size:cover;
+}
+
 .col-lg-9 {
-    background: url("../images/la_defense.jpg");
+    background: url("../images/arche.jpg");
     background-size: cover;
 }
 

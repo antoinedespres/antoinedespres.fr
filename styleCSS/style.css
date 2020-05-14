@@ -1,19 +1,19 @@
 /* Ficher style.css, appliqué à toutes les pages du site */
 
 @font-face {
-    font-family: 'geosanslightregular';
-    src: url('../polices/geosanslight-webfont.eot');
-    src: url('../polices/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../polices/geosanslight-webfont.woff2') format('woff2'),
-        url('../polices/geosanslight-webfont.woff') format('woff'),
-        url('../polices/geosanslight-webfont.ttf') format('truetype'),
-        url('../polices/geosanslight-webfont.svg#geosanslightregular') format('svg');
+    font-family: 'fira_sansregular';
+    src: url('../polices/firasans-regular-webfont.eot');
+    src: url('../polices/firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/firasans-regular-webfont.woff2') format('woff2'),
+         url('../polices/firasans-regular-webfont.woff') format('woff'),
+         url('../polices/firasans-regular-webfont.ttf') format('truetype'),
+         url('../polices/firasans-regular-webfont.svg#fira_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
 
+}
 * {
-    font-family: 'geosanslightregular', Arial, Verdana, sans-serif;
+    font-family: 'fira_sansregular', Arial, Verdana, sans-serif;
 }
 
 body {
