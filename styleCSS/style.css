@@ -64,7 +64,7 @@ header h1
 /* Antoine Després */
     {
     font-size: 2.5em;
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 header h2
@@ -134,7 +134,7 @@ nav ul li:hover ul {
 }
 
 nav ul li:hover ul li {
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 nav a {
@@ -181,12 +181,10 @@ form {
 article {
     background-color: rgba(255, 255, 255, 0.80);
     padding: 12px 20px;
-    margin: 2% 0%;
+    margin: 2% 0;
     border: 2px inset #202225;
     position: relative;
     text-align:left;
-    
-    
 }
 
 .articlecontent{

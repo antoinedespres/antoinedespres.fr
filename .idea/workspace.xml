@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e50a902a-9d61-4a90-a78c-1d775dc1d020" name="Default Changelist" comment="" />
+    <list default="true" id="e50a902a-9d61-4a90-a78c-1d775dc1d020" name="Default Changelist" comment="Now using PHP!">
+      <change beforePath="$PROJECT_DIR$/styleCSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleCSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleCSS/styleMOB.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleCSS/styleMOB.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +30,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1bjI9uE0aFXZEXdmDV9eNBCWf22" />
@@ -21,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../wamp64/bin/php/php5.6.40/php.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/wamp64/bin/php/php5.6.40/php.exe" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="SvnConfiguration">
@@ -39,11 +63,35 @@
       <workItem from="1589139104795" duration="959000" />
       <workItem from="1589310321989" duration="1565000" />
       <workItem from="1591555361198" duration="18000" />
+      <workItem from="1591965805569" duration="412000" />
     </task>
+    <task id="LOCAL-00001" summary="Now using PHP!">
+      <created>1591965988572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591965988572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Now using PHP!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now using PHP!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="180" key="#CLI_Interpreters" timestamp="1589310916717">
@@ -54,6 +102,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="168" key="#PHP/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1589310919549" />
+    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591966135819">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1591966135819" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1589310910316">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -66,6 +118,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1589311886209" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1591966001659">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1591966001659" />
     <state x="623" y="244" width="672" height="678" key="search.everywhere.popup" timestamp="1589311681198">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

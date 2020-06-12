@@ -1,8 +1,8 @@
 *
 {
     font-family: 'abelregular', Arial, Verdana, sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
@@ -33,7 +33,6 @@ header h2 /* Etudiant à l'IUT de Paris */
 {
     font-family: 'abelregular', serif;
     font-size: 1.1em;
-    margin-top: 0px;
     font-weight: normal;
     margin: 0 0 5px 10px;
 }
