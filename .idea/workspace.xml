@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7029e54-9508-4b6a-836c-59f8b599993e" name="Default Changelist" comment="" />
+    <list default="true" id="e50a902a-9d61-4a90-a78c-1d775dc1d020" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ComposerSettings">
+    <execution />
   </component>
-  <component name="ProjectId" id="1bo5ZXXuBMOJSFYvWJtZJgeRtE5" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1bjI9uE0aFXZEXdmDV9eNBCWf22" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,20 +20,55 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../wamp64/bin/php/php5.6.40/php.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7029e54-9508-4b6a-836c-59f8b599993e" name="Default Changelist" comment="" />
-      <created>1589285661781</created>
+      <changelist id="e50a902a-9d61-4a90-a78c-1d775dc1d020" name="Default Changelist" comment="" />
+      <created>1589138927694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589285661781</updated>
-      <workItem from="1589285665686" duration="14000" />
+      <updated>1589138927694</updated>
+      <workItem from="1589138931753" duration="24000" />
+      <workItem from="1589138979276" duration="106000" />
+      <workItem from="1589139104795" duration="959000" />
+      <workItem from="1589310321989" duration="1565000" />
+      <workItem from="1591555361198" duration="18000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="180" key="#CLI_Interpreters" timestamp="1589310916717">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="180" key="#CLI_Interpreters/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1589310916717" />
+    <state x="667" y="168" key="#PHP" timestamp="1589310919549">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="168" key="#PHP/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1589310919549" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1589310910316">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1589310910316" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1589139172817">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="794" y="448" key="NewPhpFileDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1589139172817" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1589311886209">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1589311886209" />
+    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup" timestamp="1589311681198">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1589311681198" />
   </component>
 </project>
